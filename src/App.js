@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import SignUpForm from './components/SignUpForm';
+import LoginForm from './components/LoginForm';
+import SupplierProfile from './components/SupplierProfile';
+import TrackOrders from './components/TrackOrders';
+import ManageOrders from './components/ManageOrders';
+import Feedback from './components/Feedback';
+import OrderRequirements from './components/OrderRequirements'; // Import the new component
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/signup" element={<SignUpForm />} />
+        <Route path="/login" element={<LoginForm />} />
+        <Route path="/profile" element={<SupplierProfile />}>
+          <Route path="track-orders" element={<TrackOrders />} />
+          <Route path="manage-orders" element={<ManageOrders />} />
+          <Route path="feedback" element={<Feedback />} />
+          <Route path="requirements" element={<OrderRequirements />} /> {/* Nested route */}
+        </Route>
+        {/* <Route path="/" element={<SignUpForm />} /> Default route */}
+      </Routes>
+    </Router>
   );
 }
 
