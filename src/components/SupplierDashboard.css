@@ -1,0 +1,13 @@
+/* components/SupplierDashboard.css */
+.dashboard {
+    font-family: Arial, sans-serif;
+}
+
+.dashboard-content {
+    display: flex;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+}

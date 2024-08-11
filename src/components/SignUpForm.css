@@ -1,0 +1,76 @@
+/* src/components/SignUpForm.css */
+.form-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #0071ce; /* Background color for the form container */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-top: 60px;
+}
+
+.logo {
+  max-width: 150px;
+  margin: 0 auto 20px auto; /* Center the logo horizontally and add margin at the bottom */
+  display: block;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #fff; /* White color for better contrast against the blue background */
+}
+
+.form-container div {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #fff; /* White color for better contrast against the blue background */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc; /* Light grey border for input fields */
+  border-radius: 4px;
+  background-color: #fff; /* White background for input fields */
+  color: #333; /* Dark text color inside input fields */
+}
+
+.error {
+  color: red;
+  font-size: 0.9em;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #000000; /* Button background color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #08c7ed; /* Darker button background on hover */
+}
+
+.link {
+  margin-top: 20px;
+}
+
+.link a {
+  color: white; /* Link color */
+  text-decoration: none;
+}
+
+.link a:hover {
+  text-decoration: underline;
+}

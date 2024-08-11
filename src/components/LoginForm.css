@@ -1,0 +1,86 @@
+/* Center the form container and set its styles */
+.form-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #0071ce; /* Background color for the form */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-top: 90px;
+}
+
+/* Style the logo */
+.logo {
+  max-width: 150px;
+  margin: 0 auto 20px auto; /* Center the logo horizontally and add margin at the bottom */
+  display: block;
+}
+
+/* Style the heading */
+h2 {
+  margin-bottom: 20px;
+  color: #fff; /* Heading color for better contrast on blue background */
+}
+
+/* Style each form field container */
+.form-container div {
+  margin-bottom: 15px;
+}
+
+/* Style the labels */
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #fff; /* Label color for better contrast on blue background */
+}
+
+/* Style the input fields */
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc; /* Light grey border for input fields */
+  border-radius: 4px;
+  background-color: #fff; /* White background for input fields for better readability */
+  color: #333; /* Text color inside input fields */
+}
+
+/* Style error messages */
+.error {
+  color: red;
+  font-size: 0.9em;
+}
+
+/* Style the submit button */
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #000000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Hover effect for the submit button */
+button[type="submit"]:hover {
+  background-color: #90cb90;
+}
+
+/* Style the link container */
+.link {
+  margin-top: 20px;
+}
+
+/* Style the links */
+.link a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Hover effect for the links */
+.link a:hover {
+  text-decoration: underline;
+}

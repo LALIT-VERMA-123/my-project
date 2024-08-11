@@ -1,11 +1,13 @@
 import React from 'react';
 import { Outlet, Link } from 'react-router-dom'; // Import Outlet for nested routes and Link for navigation
 import './SupplierProfile.css'; // Import the CSS file for styling
+import walmartLogo from './walmart-logo.png'; // Import the Walmart logo
 
 function SupplierProfile() {
   return (
     <div className="supplier-profile">
       <div className="sidebar">
+        <img src={walmartLogo} alt="Walmart Logo" className="walmart-logo" /> {/* Add the Walmart logo */}
         <h2>Supplier Profile</h2>
         <nav>
           <ul>

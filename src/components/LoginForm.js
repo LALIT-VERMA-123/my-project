@@ -2,6 +2,8 @@
 import React from 'react';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
+import './LoginForm.css'; // Import the CSS file for styling
+import logo from './walmart-logo.png'; // Import your logo
 
 const LoginForm = () => {
   const handleSubmit = (values) => {
@@ -16,6 +18,7 @@ const LoginForm = () => {
 
   return (
     <div className="form-container">
+      <img src={logo} alt="Walmart Logo" className="logo" /> {/* Add the logo */}
       <h2>Login</h2>
       <Formik
         initialValues={{ email: '', password: '' }}
@@ -35,7 +38,7 @@ const LoginForm = () => {
           </div>
           <button type="submit">Login</button>
           <div className="link">
-            Don't have an account? <a href="/signup">Sign Up</a>
+            Don't have an account? <a href="/signup" >Sign Up</a>
           </div>
         </Form>
       </Formik>

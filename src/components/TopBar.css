@@ -1,0 +1,44 @@
+.topbar {
+    display: flex;
+    height: 50px;
+    margin: 0;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0071ce;
+    color: white;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 250px;
+    right: 0;
+    z-index: 1000;
+}
+
+.topbar .logo {
+    position: absolute;
+    top: 10px; /* Adjust as needed */
+    left: 20px; /* Adjust as needed */
+}
+
+.topbar .logo img {
+    height: 40px; /* Adjust the size as needed */
+}
+
+.topbar .menu {
+    display: flex;
+    align-items: center;
+    margin-left: auto; /* Ensures the menu stays on the right side */
+}
+
+.topbar .menu span {
+    display: flex;
+    align-items: center;
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+.topbar .menu img {
+    margin-right: 8px; /* Space between flag icon and text */
+    width: 20px; /* Size of the flag icon */
+    height: 15px; /* Size of the flag icon */
+}

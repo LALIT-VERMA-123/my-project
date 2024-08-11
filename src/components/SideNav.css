@@ -1,0 +1,31 @@
+/* components/SideNav.css */
+.sidenav {
+    width: 250px;
+    background-color: #333;
+    color: white;
+    height: 100vh;
+    padding: 20px;
+}
+
+.sidenav h3 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.sidenav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidenav ul li {
+    margin: 15px 0;
+}
+
+.sidenav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.sidenav ul li a:hover {
+    text-decoration: underline;
+}

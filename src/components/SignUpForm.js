@@ -3,6 +3,8 @@ import React from 'react';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
 import validationSchemaSignup from './validationSchemaSignup';
+import './SignUpForm.css';
+import logo from './walmart-logo.png'; // Import your logo
 
 const SignUpForm = () => {
   const handleSubmit = (values) => {
@@ -12,6 +14,7 @@ const SignUpForm = () => {
 
   return (
     <div className="form-container">
+      <img src={logo} alt="Logo" className="logo" /> {/* Add the logo */}
       <h2>Sign Up</h2>
       <Formik
         initialValues={{ name: '', email: '', password: '' }}

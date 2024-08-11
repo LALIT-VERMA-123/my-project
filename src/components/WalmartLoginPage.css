@@ -1,0 +1,118 @@
+/* Center the container and set the background color */
+body{
+  margin: 0%;
+}
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #0071ce;
+  color: #ffffff;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+/* Style the logo */
+.logo {
+  width:  200px;
+  /* Increased size */
+  margin-bottom: 0px;
+}
+
+/* Center the header text */
+header {
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+/* Style the login form container */
+.login-form {
+  background: #ffffff;
+  /* Changed color to white */
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  /* Adjusted width */
+}
+
+/* Style the icon container */
+.icon {
+  margin-bottom: 20px;
+}
+
+/* Style input groups */
+.input-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #0071ce;
+  /* Updated border color */
+  padding: 10px 0;
+}
+
+/* Style input icons */
+.input-icon {
+  margin-right: 10px;
+  color: #0071ce;
+  /* Updated color */
+}
+
+/* Style input fields */
+input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #0071ce;
+  /* Updated color */
+  flex: 1;
+  padding: 10px;
+}
+
+/* Style the login button */
+button {
+  background-color: #0071ce;
+  /* Updated color */
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+/* Style the forgot password link */
+.forgot-password {
+  display: block;
+  margin-top: 10px;
+  color: #0071ce;
+  /* Updated color */
+  text-decoration: underline;
+}
+
+/* Style the footer */
+footer {
+  margin-top: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+/* Style footer links */
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* Style individual footer links */
+.footer-links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 12px;
+}

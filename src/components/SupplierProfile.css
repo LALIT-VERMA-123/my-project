@@ -1,42 +1,49 @@
-/* Supplier Profile Page */
+/* SupplierProfile.css */
+
 .supplier-profile {
-    display: flex;
-    height: 100vh;
-  }
-  
-  .sidebar {
-    width: 250px;
-    background-color: #343a40;
-    color: #fff;
-    padding: 20px;
-    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
-  }
-  
-  .sidebar h2 {
-    margin-bottom: 20px;
-  }
-  
-  .sidebar nav ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .sidebar nav ul li {
-    margin-bottom: 15px;
-  }
-  
-  .sidebar nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.1em;
-  }
-  
-  .sidebar nav ul li a:hover {
-    text-decoration: underline;
-  }
-  
-  .profile-content {
-    flex: 1;
-    padding: 20px;
-  }
-  
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #0071ce;
+  padding: 20px;
+  color: white;
+}
+
+.sidebar .walmart-logo {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.sidebar h2 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.sidebar nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar nav ul li {
+  margin: 10px 0;
+}
+
+.sidebar nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.sidebar nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.profile-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #ecf0f1;
+}

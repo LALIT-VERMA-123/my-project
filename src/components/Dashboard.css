@@ -1,0 +1,17 @@
+/* components/Dashboard.css */
+
+.dashboard {
+    display: flex;
+}
+
+.content {
+    margin-left: 250px;
+     /* Align with the sidebar width */
+    /* margin-top: 60px; Align with the top bar height */
+    padding: 20px;
+    width: calc(100% - 250px);
+    height: calc(100vh - 60px);
+    overflow-y: auto;
+    background-color: #f0f2f5;
+    position: relative;
+}
