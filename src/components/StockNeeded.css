@@ -1,0 +1,90 @@
+/* Container for the whole page */
+.stock-needed-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+/* Warning banner at the top */
+.warning-banner {
+    background-color: #ff4c4c;
+    color: white;
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Container for the form elements */
+.form-container {
+    background-color: #0071ce;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+/* Each form group (label and input) */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* Styling for the form labels */
+.form-group label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Grouping for input with an icon */
+.input-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Styling for the input icon */
+.input-icon {
+    margin-right: 10px;
+    font-size: 24px;
+    color: green;
+}
+
+/* Styling for the text inputs */
+input[type="text"] {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+    transition: border-color 0.3s ease;
+}
+
+/* Input focus styling */
+input[type="text"]:focus {
+    border-color: #0f0f0f;
+    outline: none;
+}
+
+/* Additional styling for a more polished look */
+input[type="text"]::placeholder {
+    color: #999;
+    font-style: italic;
+}
+
+input[type="text"]:hover {
+    border-color: #0056b3;
+}
